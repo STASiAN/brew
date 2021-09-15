@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ ! -f /usr/local/bin/brew ]; then /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";fi
+if [ ! -f /usr/local/bin/brew ]; then /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)";fi
 
 brew tap homebrew/cask-fonts
 
